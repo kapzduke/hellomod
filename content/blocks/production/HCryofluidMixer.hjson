@@ -26,16 +26,17 @@ itemCapacity: 40
 liquidCapacity: 120
 
 requirements: [
-  copper/230
-  silicon/110
-  titanium/70
+  silicon/100
+  titanium/75
+  thorium/50
+  plastanium/75
 ]
 
 consumes: {
   power: 1.2
   items: {
     items: [
-      titanium/4
+      titanium/3
     ]
   }
   liquid: {
@@ -43,7 +44,7 @@ consumes: {
     amount: 1
   }
 }
-outputLiquid: cryofluid/5
+outputLiquid: cryofluid/1
 craftTime: 60
 category: crafting
 research: cryofluid-mixer
